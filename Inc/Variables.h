@@ -1,5 +1,7 @@
 /*
 General Global Variables file
+
+Author: Mrunal Ahirrao
 */
 
 //To avoid multiple inclusion
@@ -13,11 +15,6 @@ General Global Variables file
 //SIM868E status Macros
 
 typedef struct{
-	
-	
-	//General system flags
-	unsigned int FLASH_WRITTEN:1; 
-	//General system flags
 	
 	//Generic SIM868E related Flags
 	unsigned int SIM868E_SLEEPING:1;
