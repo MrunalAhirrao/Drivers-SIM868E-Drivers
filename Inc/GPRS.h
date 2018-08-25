@@ -1,5 +1,6 @@
 /*
 Functions and variables,constants for GPRS 
+Author: Mrunal Ahirrao.
 */
 
 #include "SIM868E_Generic.h"
@@ -48,7 +49,6 @@ extern unsigned char RCVD_SERVER_RESP[200];
 
 //GPRS functions
 void GPRS_init(void);
-//void GPRS_connect(void);
 void GPRS_disconnect(void);
 void GPRS_send(unsigned char message[]);
 void GPRS_RX_formatdata(char *buffer);
