@@ -1,6 +1,6 @@
 /*
 GSM functions and variables and macros for SIM868E
-
+Author: Mrunal Ahirrao
 */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
@@ -69,9 +69,9 @@ void RESET_SMS_FLAGS(void);
 typedef struct{
 
 	unsigned char IMEI_Num[15];
-	//unsigned char SIM_Num[11];//SIM868E don't support this, only OK is responsed!
+	//unsigned char SIM_Num[11];//SIM868E don't support this, only OK is responsed!(atleast in my case)
 	unsigned char SIM_OPR_NAME[100];
-	//unsigned char GSM_SIG_QLY[6];
+	//unsigned char GSM_SIG_QLY[6];//Currently I have removed this.
 
 }GSM_Data;
 
