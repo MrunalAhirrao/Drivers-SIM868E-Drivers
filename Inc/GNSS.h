@@ -1,5 +1,6 @@
 /*
 Header file for SIM868E GNSS module
+Author: Mrunal Ahirrao
 */
 
 #include "SIM868E_Generic.h"
