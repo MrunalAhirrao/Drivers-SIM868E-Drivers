@@ -47,7 +47,7 @@
 #include "FLASHSTORE.h"
 #include <string.h>
 
-GPRS_Params GPRS_Details;//={"35.154.227.1","1039","www"};//only for testing
+GPRS_Params GPRS_Details;// add your GPRS details
 unsigned char somearray[25];
 char *ptr;
 /* USER CODE END Includes */
