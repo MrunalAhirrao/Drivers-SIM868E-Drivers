@@ -44,7 +44,6 @@
 #include "GSM.h"
 #include "GPRS.h"
 #include "BLE.h"
-#include "FLASHSTORE.h"
 #include <string.h>
 
 GPRS_Params GPRS_Details;// add your GPRS details
